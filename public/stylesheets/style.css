@@ -1,6 +1,7 @@
 html {
     position: relative;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 body {
     margin: 0 0 100px; /* bottom = footer height */
