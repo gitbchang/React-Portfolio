@@ -2,9 +2,11 @@ html {
     position: relative;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    background-image: url('/images/brickwall.png');
 }
 body {
     margin: 0 0 100px; /* bottom = footer height */
+
 }
 footer {
     position: absolute;

@@ -1,7 +1,9 @@
-import Main from './Main';
+import MainTypewriter from './MainTypewriter';
 import PortfolioGallery from './PortfolioGallery';
+import AboutMe from './AboutMe';
 
 export {
-  Main,
-  PortfolioGallery
+  MainTypewriter,
+  PortfolioGallery,
+  AboutMe
 }
