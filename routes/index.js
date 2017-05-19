@@ -6,11 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Brian H. Chang' });
 });
 
-router.get('/portfolio', function(req, res, next) {
-  res.render('index', { title: 'Brian H. Chang' });
-});
-
-router.get('/about', function(req, res, next) {
+// put a default route since we want to render the index everytime
+router.get('*', function(req, res, next) {
   res.render('index', { title: 'Brian H. Chang' });
 });
 
