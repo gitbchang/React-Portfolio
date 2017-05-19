@@ -13,7 +13,7 @@ class SpotifyApiProject extends Component {
       MERN Stack Application
     </h2>
       <a className="link" href="https://spotify-groundup.herokuapp.com/" target="_blank">
-          <img className="grow dim db ba b--black-10 pa1" src="/images/Spotify-preview-groundup-edit.png" alt="projectPreview"/>
+          <img className="dim db ba b--black-10 pa1" src="/images/Spotify-preview-groundup-edit.png" alt="projectPreview"/>
       </a>
       <time className="f6 ttu tracked gray dib mt2">April 2017</time>
   </header>
