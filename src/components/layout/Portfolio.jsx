@@ -8,7 +8,7 @@ class Portfolio extends Component {
     return (
       <Switch>
         <Route exact path='/portfolio' component={PortfolioGallery} />
-        <Route path='/portfolio/:number' component={SingleProject}/>
+        <Route path='/portfolio/single' component={SingleProject}/>
       </Switch>
     );
   }

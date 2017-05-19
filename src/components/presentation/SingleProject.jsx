@@ -7,12 +7,13 @@ class SingleProject extends Component {
         <article className="cf ph3 ph5-ns pv5">
   <header className="fn fl-ns w-50-ns pr4-ns">
     <h1 className="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
-      On Typography
+      Spotify - API React
     </h1>
     <h2 className="f3 mid-gray lh-title">
-      An excerpt from the Form of the Book by Jan Tschichold
+      MERN Stack Application
     </h2>
-    <time className="f6 ttu tracked gray">Sometime before 1967</time>
+    <img src="/images/spotify.svg" alt="spotifyIcon"/>
+    <time className="f6 ttu tracked gray">April 2017</time>
   </header>
   <div className="fn fl-ns w-50-ns">
     <p className="f5 lh-copy measure mt0-ns">
