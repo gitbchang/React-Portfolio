@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class SingleProject extends Component {
+class SpotifyApiProject extends Component {
   render() {
     return (
       <div>
@@ -39,5 +39,5 @@ class SingleProject extends Component {
   }
 }
 
-export default SingleProject;
+export default SpotifyApiProject;
 

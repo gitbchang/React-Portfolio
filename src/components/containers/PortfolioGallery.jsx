@@ -6,7 +6,7 @@ class PortfolioGallery extends Component {
     return (
       <main className="cf pa4">
           <div className="fl w-100 w-50-ns ph2">
-            <Link to='/portfolio/single' className="pv2 grow db no-underline black"><img className="db w-100" src="/images/spotify-MainPortfolio.jpg" /></Link>
+            <Link to='/portfolio/spotifyApi' className="pv2 grow db no-underline black"><img className="db w-100" src="/images/spotify-MainPortfolio.jpg" /></Link>
             <a href="" className="no-underline pv2 grow db"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters.jpg" /></a>
             <a href="#" className="no-underline pv2 grow db"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/pink-and-noseworthy-22.12.10-cargo_960.jpg"/></a>
             <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw090911_960.jpg"/></a>

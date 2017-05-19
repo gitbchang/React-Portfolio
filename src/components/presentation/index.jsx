@@ -1,9 +1,9 @@
 import TopHeader from './TopHeader';
 import BottomFooter from './BottomFooter';
-import SingleProject from './SingleProject';
+import SpotifyApiProject from './SpotifyApiProject';
 
 export {
   TopHeader,
   BottomFooter,
-  SingleProject
+  SpotifyApiProject
 }
