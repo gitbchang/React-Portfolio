@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class PortfolioGallery extends Component {
   render() {
     return (
-      <main className="cf pa4">
+      <div className="cf pa4">
           <div className="fl w-100 w-50-ns ph2">
             <Link to='/portfolio/spotifyApi' className="pv2 grow db no-underline black"><img className="db w-100" src="/images/spotify-MainPortfolio.jpg" /></Link>
             <a href="" className="no-underline pv2 grow db"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters.jpg" /></a>
@@ -12,7 +12,7 @@ class PortfolioGallery extends Component {
             <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw090911_960.jpg"/></a>
           </div>
           <div className="fl w-50 w-25-ns ph2">
-            <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-031209_960-2.jpg"/></a>
+            <Link to='/portfolio/fishDay' className="pv2 grow db no-underline black"><img className="db w-100" src="images/fish-gallery.jpg"/></Link>
             <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg"/></a>
             <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw18-240112-cc_960.jpg"/> </a>
             <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-residency-cargo_960.jpg"/></a>
@@ -29,10 +29,8 @@ class PortfolioGallery extends Component {
             <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/ZachHurd-190111s_960.jpg"/></a>
             <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw170211pie-cargo_960.jpg"/></a>
             <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-191110_960.jpg"/></a>
-          </div>
-
-          
-      </main>
+          </div>          
+      </div>
     );
   }
 }
