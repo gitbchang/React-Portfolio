@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class SpotifyApiProject extends Component {
   render() {
     return (
-      <div>
+      <div className="transition-item">
         <article className="cf ph3 ph5-ns pv5">
           <header className="fn fl-ns w-50-ns pr4-ns">
             <h1 className="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">

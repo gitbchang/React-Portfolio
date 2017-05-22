@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route, Link, Match, Miss } from 'react-router-dom';
+import PageTransition from 'react-router-page-transition';
 import { PortfolioGallery } from '../containers/';
 import { SpotifyApiProject, HappyMediumProject, WestworldRpg, FishDay } from '../presentation/';
 
@@ -9,11 +10,11 @@ class Portfolio extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path='/portfolio' name='Portfolio' component={PortfolioGallery} />
+        <Route exact path='/portfolio' name='Portfolio' component={PortfolioGallery} />      
         <Route path='/portfolio/spotifyApi' name="Spotify API Project" component={SpotifyApiProject}/>
         <Route path='/portfolio/happyMedium' name="happyMedium" component={HappyMediumProject}/>
         <Route path='/portfolio/westworld' name="westworld" component={WestworldRpg}/>
-        <Route path='/portfolio/fishDay' name="fishDay" component={FishDay} />        
+        <Route path='/portfolio/fishDay' name="fishDay" component={FishDay} />
       </Switch>
     );
   }

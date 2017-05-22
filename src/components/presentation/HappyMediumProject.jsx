@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class HappyMedium extends Component {
   render() {
     return (
-      <div>
+      <div className='transition-item'>
         Happy Medium
       </div>
     );
