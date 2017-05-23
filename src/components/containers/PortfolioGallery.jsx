@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import PageTransition from 'react-router-page-transition';
 
 class PortfolioGallery extends Component {
   render() {
     return (      
-        <div className="cf pa4 transition-item">
+        <div className="cf pa4">
             <div className="fl w-100 w-50-ns ph2">
               <Link to='/portfolio/spotifyApi' className="pv2 grow db no-underline black"><img className="db w-100" src="/images/spotify-MainPortfolio.jpg" /></Link>
               <a href="" className="no-underline pv2 grow db"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters.jpg" /></a>
