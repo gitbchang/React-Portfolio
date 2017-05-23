@@ -13,13 +13,13 @@ class FishDay extends Component {
             <h2 className="f3 mid-gray lh-title">
               React application
             </h2>
-            <a className="link" href="https://ns-bdaojfwflk.now.sh" target="_blank">
+            <a className="link" href="https://ns-bdaojfwflk.now.sh/" target="_blank">
               <img
                 className="dim db ba b--black-10 pa1"
                 src="/images/catchfish1.jpg"
                 alt="projectPreview"/>
             </a>
-            <time className="f6 ttu tracked gray dib mt2">April 2017</time>
+            <time className="f6 ttu tracked gray dib mt2">May 2017</time>
           </header>
           <div className="fn fl-ns w-50-ns">
             <div className="f3 fw6 mid-gray lh-title mb3">
@@ -40,10 +40,10 @@ class FishDay extends Component {
               Using Firebase login, each store you create is tied to your account
             </p>
             <div className="f3 fw6 mid-gray lh-title mb3">
-              Challenges
+              Lessons Learned
             </div>
             <p className="f5 lh-copy measure">
-              Challenges description
+              Bi-directional data flow between Firebase DB and component. A change to an item's detail in the DB will result in the component re-rendering.
             </p>
           </div>
         </article>
