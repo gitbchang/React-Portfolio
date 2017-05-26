@@ -14,7 +14,9 @@ class PortfolioGallery extends Component {
               <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg"/></a>
             </div>
             <div className="fl w-50 w-25-ns ph2">
-              <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zach-hurd-101218_960.jpg"/></a>
+              <Link to ='/portfolio/westworld' className="pv2 grow db no-underline black">
+                <img className="db w-100" src="/images/westworld-gallery.jpg" alt="westworld"/>
+              </Link>
               <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zh170311.4.cargo_960.jpg"/></a>
               <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hwspringtour-cargo_960-1.jpg"/></a>
             </div>      

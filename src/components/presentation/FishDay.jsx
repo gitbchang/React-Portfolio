@@ -16,7 +16,7 @@ class FishDay extends Component {
             <a className="link" href="https://ns-bdaojfwflk.now.sh/" target="_blank">
               <img
                 className="dim db ba b--black-10 pa1"
-                src="/images/catchfish1.jpg"
+                src="/images/fish-preview.jpg"
                 alt="projectPreview"/>
             </a>
             <time className="f6 ttu tracked gray dib mt2">May 2017</time>

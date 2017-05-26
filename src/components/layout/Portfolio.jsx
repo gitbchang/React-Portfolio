@@ -35,8 +35,14 @@ class Portfolio extends Component {
             path='/portfolio/happyMedium'
             name="happyMedium"
             component={HappyMediumProject}/>
-          <Route path='/portfolio/westworld' name="westworld" component={WestworldRpg}/>
-          <Route path='/portfolio/fishDay' name="fishDay" component={FishDay}/>
+          <Route 
+            path='/portfolio/westworld' 
+            name="westworld" 
+            component={WestworldRpg}/>
+          <Route 
+            path='/portfolio/fishDay' 
+            name="fishDay" 
+            component={FishDay}/>
         </Switch>
       </RouteTransition>
     )

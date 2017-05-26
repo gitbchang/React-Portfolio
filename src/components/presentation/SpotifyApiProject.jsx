@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 
 class SpotifyApiProject extends Component {
   render() {
     return (
-      <div className="transition-item">
+      <div>
         <article className="cf ph3 ph5-ns pv5">
           <header className="fn fl-ns w-50-ns pr4-ns">
             <h1 className="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
@@ -13,15 +14,15 @@ class SpotifyApiProject extends Component {
             <h2 className="f3 mid-gray lh-title">
               MERN Stack Application
             </h2>
-            <a
+            <Link
               className="link"
-              href="https://spotify-groundup.herokuapp.com/"
+              to="https://spotify-groundup.herokuapp.com/"
               target="_blank">
               <img
                 className="dim db ba b--black-10 pa1"
                 src="/images/Spotify-preview-groundup-edit.png"
                 alt="projectPreview"/>
-            </a>
+            </Link>
             <time className="f6 ttu tracked gray dib mt2">April 2017</time>
           </header>
           <div className="fn fl-ns w-50-ns">
@@ -45,7 +46,7 @@ class SpotifyApiProject extends Component {
               Tracks.
             </p>
             <div className="f3 fw6 mid-gray lh-title mb3">
-              Challenges
+              Lessons Learned
             </div>
             <p className="f5 lh-copy measure">
               The first challenge was deciding on a CSS library/framework to use. I decided to
