@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class FishDay extends Component {
   render() {
@@ -10,15 +11,19 @@ class FishDay extends Component {
               Fish of the Day
               <img className='dib ml2 mt2 mw2' src="/images/ClownFish-26.png" alt="fishIcon"/>
             </h1>
-            <h2 className="f3 mid-gray lh-title">
-              React application
-            </h2>
-            <a className="link" href="https://ns-bdaojfwflk.now.sh/" target="_blank">
-              <img
-                className="dim db ba b--black-10 pa1"
-                src="/images/fish-preview.jpg"
-                alt="projectPreview"/>
-            </a>
+            <Link className="link" to="https://ns-bdaojfwflk.now.sh/" target="_blank">
+              <h2 className="f3 lh-title blue dim">
+                React application
+              </h2>
+            </Link>
+            <iframe
+              src="https://player.vimeo.com/video/219129209"
+              width="640"
+              height="360"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen></iframe>
             <time className="f6 ttu tracked gray dib mt2">May 2017</time>
           </header>
           <div className="fn fl-ns w-50-ns">
@@ -43,7 +48,8 @@ class FishDay extends Component {
               Lessons Learned
             </div>
             <p className="f5 lh-copy measure">
-              Bi-directional data flow between Firebase DB and component. A change to an item's detail in the DB will result in the component re-rendering.
+              Bi-directional data flow between Firebase DB and component. A change to an
+              item's detail in the DB will result in the component re-rendering.
             </p>
           </div>
         </article>
