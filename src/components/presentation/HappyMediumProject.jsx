@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class HappyMedium extends Component {
   render() {
@@ -11,7 +12,7 @@ class HappyMedium extends Component {
             </h1>
             <Link className="link" to="https://happy-medium-33616.herokuapp.com/" target="_blank">
               <h2 className="f3 lh-title blue dim">
-                Full Stack Application with Firebase
+                Full Stack Application (jQuery + Firebase)
               </h2>
             </Link>
             <time className="f6 ttu tracked gray dib mt2">January 2017</time>
