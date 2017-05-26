@@ -17,7 +17,7 @@ class PortfolioGallery extends Component {
               <Link to ='/portfolio/westworld' className="pv2 grow db no-underline black">
                 <img className="db w-100" src="/images/westworld-gallery.jpg" alt="westworld"/>
               </Link>
-              <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zh170311.4.cargo_960.jpg"/></a>
+              <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="/images/hm-portfolio.jpg"/></a>
               <a href="" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hwspringtour-cargo_960-1.jpg"/></a>
             </div>      
         </div>      

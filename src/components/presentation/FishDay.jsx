@@ -24,6 +24,7 @@ class FishDay extends Component {
               webkitallowfullscreen
               mozallowfullscreen
               allowfullscreen></iframe>
+              <br />
             <time className="f6 ttu tracked gray dib mt2">May 2017</time>
           </header>
           <div className="fn fl-ns w-50-ns">

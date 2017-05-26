@@ -9,7 +9,7 @@ class TopHeader extends Component {
         <div className="tc pb3">
           <Link className="link dim gray f6 f5-ns dib mr3" to='/'>Home</Link>
           <Link className="link dim gray f6 f5-ns dib mr3" to='/about'>About</Link>      
-          <a href="https://drive.google.com/file/d/0B8qAZHZiF7XJN012cFNKODBJSGc/view?usp=sharing" target="_blank"><div className="link dim gray f6 f5-ns dib mr3">Resume</div></a>
+          <Link to="https://drive.google.com/file/d/0B8qAZHZiF7XJN012cFNKODBJSGc/view?usp=sharing" target="_blank"><div className="link dim gray f6 f5-ns dib mr3">Resume</div></Link>
           <Link to='/portfolio'><div className="link dim gray f6 f5-ns dib">Portfolio</div></Link>
         </div>        
       </nav>
